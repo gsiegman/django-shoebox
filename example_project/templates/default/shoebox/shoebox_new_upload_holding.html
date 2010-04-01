@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% for form in forms %}
+	<form enctype="multipart/form-data" method="post" action="{% url shoebox_manage_new_upload %}">
+		{{ form.as_p }}
+		
+		<input type="submit" value="Save" />
+	</form>
+	{% endfor %}
+	
+	<p>Total files uploaded: {{ files_uploaded }}</p>
+	
+	<a href="{% url shoebox_index %}">Upload more files</a>
+{% endblock %}

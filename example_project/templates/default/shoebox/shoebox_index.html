@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% load uploadify_tags %}
+
+{% block head_extra %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{{ MEDIA_URL }}css/style.css" type="text/css" media="screen" />
+{% endblock %}
+
+{% block title %}Shoebox Index{% endblock %}
+
+{% block content %}
+	<h1>Hello Shoebox!</h1>
+	
+	{% multi_file_upload '/shoebox/new_uploads/' %}
+	
+	<h3>Latest photos:</h3>
+	
+	<ul>
+	{% for photo in latest_photos %}
+		<li><img src="{{ photo.get_thumbnail_url }}" /><caption>{{ photo.title }}</caption></li>
+	{% endfor %}
+	</ul>
+{% endblock %}

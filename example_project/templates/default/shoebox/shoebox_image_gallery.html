@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}{{ block.super }}Shoebox{% endblock %}
+
+{% block head_extra %}
+	{{ block.super }}
+	<style type="text/css">
+		div {
+			padding: 10px;
+		}
+		
+		.center {
+			margin: auto;
+			width: 70%;
+		}
+		
+		#search-box {
+			width: 500px;
+		}
+	</style>
+{% endblock %}
+
+{% block content %}
+<div id="search-container" class="center">
+	<label for="search-box">Search:</label>
+	<input id="search-box" type="text" />
+</div>
+
+<div id="photos">
+{% for photo in photos %}
+	<a href="{% url pl-photo photo.title_slug %}"><img src="{{ photo.get_thumbnail_url }}" /></a>
+	<p>{{ photo.title }}</p>
+{% endfor %}
+</div>
+{% endblock %}

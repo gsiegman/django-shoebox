@@ -1,0 +1,437 @@
+Downloading/unpacking django-photologue==2.2 (from -r requirements.txt (line 4))
+  Getting page http://pypi.python.org/simple/django-photologue
+  URLs to search for versions for django-photologue==2.2 (from -r requirements.txt (line 4)):
+  * http://pypi.python.org/simple/django-photologue/2.2
+  * http://pypi.python.org/simple/django-photologue/
+  Getting page http://pypi.python.org/simple/django-photologue/2.2
+  Getting page http://code.google.com/p/django-photologue/
+  Could not fetch URL http://pypi.python.org/simple/django-photologue/2.2: HTTP Error 404: Not Found
+  Will skip URL http://pypi.python.org/simple/django-photologue/2.2 when looking for download links for django-photologue==2.2 (from -r requirements.txt (line 4))
+  Analyzing links from page http://pypi.python.org/simple/django-photologue/
+    Found link http://pypi.python.org/packages/source/d/django-photologue/django-photologue-2.3.tar.gz#md5=745ebc61b9758f1a9515ec1034d5ed30 (from http://pypi.python.org/simple/django-photologue/), version: 2.3
+    Skipping link http://code.google.com/p/django-photologue/ (from http://pypi.python.org/simple/django-photologue/); not a file
+  Analyzing links from page http://code.google.com/p/django-photologue/
+    Skipping link http://www.gstatic.com/codesite/ph/images/phosting.ico (from http://code.google.com/p/django-photologue/); unknown archive format: .ico
+    Skipping link http://www.gstatic.com/codesite/ph/4947822560086976896/css/ph_core.css (from http://code.google.com/p/django-photologue/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/4947822560086976896/css/ph_detail.css (from http://code.google.com/p/django-photologue/); unknown archive format: .css
+    Skipping link http://www.gstatic.com/codesite/ph/4947822560086976896/css/d_ie.css (from http://code.google.com/p/django-photologue/); unknown archive format: .css
+    Skipping link https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-photologue%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fdjango-photologue%2F (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://www.firefox.com (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://www.google.com/chrome (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/downloads/list (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/w/list (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/issues/list (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/source/checkout (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/updates/list (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/people/list (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://www.opensource.org/licenses/bsd-license.php (from http://code.google.com/p/django-photologue/); unknown archive format: .php
+    Skipping link http://code.google.com/hosting/search?q=label:django (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:photos (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:photo (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:galleries (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:gallery (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:photo-gallery (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:photo-galleries (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:python (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:image (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:plugin (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:exif (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:resize (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/hosting/search?q=label:filter (from http://code.google.com/p/django-photologue/); not a file
+    Found link http://django-photologue.googlecode.com/files/django-photologue-2.2.zip (from http://code.google.com/p/django-photologue/), version: 2.2
+    Skipping link http://code.google.com/p/django-photologue/wiki/ReadMe (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://justindriscoll.us (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://driscolldev.com (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/feeds (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://groups.google.com/group/django-photologue (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/u/justin.driscoll/ (from http://code.google.com/p/django-photologue/); unknown archive format: .driscoll
+    Skipping link http://code.google.com/p/django-photologue/wiki/ImageModel (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/wiki/PhotoSize (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/wiki/PhotoEffect (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/wiki/GalleryUpload (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://sourceforge.net/projects/exif-py/ (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-photologue/wiki/Photo (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://www.pythonware.com/products/pil/ (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/p/django-tagging/ (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/projecthosting/terms.html (from http://code.google.com/p/django-photologue/); unknown archive format: .html
+    Skipping link http://www.google.com/privacy.html (from http://code.google.com/p/django-photologue/); unknown archive format: .html
+    Skipping link http://code.google.com/p/support/ (from http://code.google.com/p/django-photologue/); not a file
+    Skipping link http://code.google.com/projecthosting/ (from http://code.google.com/p/django-photologue/); not a file
+  Ignoring link http://pypi.python.org/packages/source/d/django-photologue/django-photologue-2.3.tar.gz#md5=745ebc61b9758f1a9515ec1034d5ed30 (from http://pypi.python.org/simple/django-photologue/), version 2.3 doesn't match ==2.2
+  Downloading from URL http://django-photologue.googlecode.com/files/django-photologue-2.2.zip (from http://code.google.com/p/django-photologue/)
+  Running setup.py egg_info for package django-photologue
+    running egg_info
+    creating pip-egg-info/django_photologue.egg-info
+    writing pip-egg-info/django_photologue.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/django_photologue.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/django_photologue.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/django_photologue.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/django_photologue.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/django_photologue.egg-info/SOURCES.txt'
+  Source in /Users/gsiegman/.virtualenvs/django-shoebox/build/django-photologue has version 2.2, which satisfies requirement django-photologue==2.2 (from -r requirements.txt (line 4))
+Downloading/unpacking pil==1.1.6 (from -r requirements.txt (line 2))
+  Getting page http://pypi.python.org/simple/pil
+  URLs to search for versions for pil==1.1.6 (from -r requirements.txt (line 2)):
+  * http://pypi.python.org/simple/pil/1.1.6
+  * http://pypi.python.org/simple/pil/
+  Getting page http://pypi.python.org/simple/pil/1.1.6
+  Getting page http://pypi.python.org/simple/pil/
+  Could not fetch URL http://pypi.python.org/simple/pil/1.1.6: HTTP Error 404: Not Found
+  Will skip URL http://pypi.python.org/simple/pil/1.1.6 when looking for download links for pil==1.1.6 (from -r requirements.txt (line 2))
+  Getting page http://www.pythonware.com/products/pil
+  Getting page http://effbot.org/zone/pil-changes-115.htm
+  Skipping page http://www.pythonware.com/downloads/Imaging-1.1.3.tar.gz (from http://pypi.python.org/simple/PIL/) because of Content-Type: 
+  Getting page http://effbot.org/downloads/
+  Analyzing links from page http://pypi.python.org/simple/PIL/
+    Skipping link http://www.pythonware.com/products/pil (from http://pypi.python.org/simple/PIL/); not a file
+    Skipping link http://effbot.org/zone/pil-changes-115.htm (from http://pypi.python.org/simple/PIL/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/downloads/Imaging-1.1.3.tar.gz (from http://pypi.python.org/simple/PIL/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#Imaging (from http://pypi.python.org/simple/PIL/); not a file
+  Analyzing links from page http://www.pythonware.com/products/pil/
+    Skipping link http://www.pythonware.com/media/css/pythonware.css (from http://www.pythonware.com/products/pil/); unknown archive format: .css
+    Skipping link http://www.pythonware.com/index.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/products/index.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/library/index.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/search.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/daily/index.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/products/ (from http://www.pythonware.com/products/pil/); not a file
+    Skipping link http://www.pythonware.com/products/pil/support.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/products/pil/old.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/products/pil/license.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/products/pil/faq.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.djangoproject.com/ (from http://www.pythonware.com/products/pil/); not a file
+    Skipping link http://www.pythonware.com/products/pil/#pil117 (from http://www.pythonware.com/products/pil/); not a file
+    Skipping link mailto:image-sig@python.org (from http://www.pythonware.com/products/pil/); unknown archive format: .org
+    Skipping link http://mail.python.org/mailman/listinfo/image-sig (from http://www.pythonware.com/products/pil/); not a file
+    Skipping link mailto:image-sig-request@python.org (from http://www.pythonware.com/products/pil/); unknown archive format: .org
+    Skipping link mailto:info@pythonware.com (from http://www.pythonware.com/products/pil/); unknown archive format: .com
+    Skipping link http://effbot.org/downloads/Imaging-1.1.7.tar.gz (from http://www.pythonware.com/products/pil/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/PIL-1.1.7.win32-py2.4.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.7.win32-py2.5.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.7.win32-py2.6.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads#pil (from http://www.pythonware.com/products/pil/); not a file
+    Skipping link http://effbot.org/downloads/Imaging-1.1.6.tar.gz (from http://www.pythonware.com/products/pil/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/PIL-1.1.6.win32-py2.2.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.6.win32-py2.3.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.6.win32-py2.4.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.6.win32-py2.5.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.6.win32-py2.6.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/zone/pil-changes-116.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://effbot.org/zone/python-register.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://effbot.org/downloads/Imaging-1.1.5.tar.gz (from http://www.pythonware.com/products/pil/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/PIL-1.1.5.win32-py2.1.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.5.win32-py2.2.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.5.win32-py2.3.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.5.win32-py2.4.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/PIL-1.1.5.win32-py2.5.exe (from http://www.pythonware.com/products/pil/); unknown archive format: .exe
+    Skipping link http://www.pythonware.com/library/pil/handbook/index.htm (from http://www.pythonware.com/products/pil/); unknown archive format: .htm
+    Skipping link http://www.pythonware.com/media/data/pil-handbook.pdf (from http://www.pythonware.com/products/pil/); unknown archive format: .pdf
+  Analyzing links from page http://effbot.org/zone/pil-changes-115.htm
+    Skipping link http://effbot.org/zone/rss.xml (from http://effbot.org/zone/pil-changes-115.htm); unknown archive format: .xml
+    Skipping link http://effbot.org/media/img/effbot.ico (from http://effbot.org/zone/pil-changes-115.htm); unknown archive format: .ico
+    Skipping link http://effbot.org/media/css/effbot-min.css (from http://effbot.org/zone/pil-changes-115.htm); unknown archive format: .css
+    Skipping link http://effbot.org/media/css/effbotprint-min.css (from http://effbot.org/zone/pil-changes-115.htm); unknown archive format: .css
+    Skipping link http://effbot.org/downloads#imaging (from http://effbot.org/zone/pil-changes-115.htm); not a file
+    Skipping link http://effbot.org/ (from http://effbot.org/zone/pil-changes-115.htm); not a file
+    Skipping link http://effbot.org/zone/pil-errata-114.htm (from http://effbot.org/zone/pil-changes-115.htm); unknown archive format: .htm
+    Skipping link http://effbot.org/zone/pythondoc.htm (from http://effbot.org/zone/pil-changes-115.htm); unknown archive format: .htm
+    Skipping link http://effbot.org/downloads#pilwmf (from http://effbot.org/zone/pil-changes-115.htm); not a file
+    Skipping link http://effbot.org/zone/ (from http://effbot.org/zone/pil-changes-115.htm); not a file
+    Skipping link http://www.webfaction.com/shared_hosting?affiliate=slab (from http://effbot.org/zone/pil-changes-115.htm); not a file
+  Analyzing links from page http://www.pythonware.com/products/pil/
+    Skipping link http://effbot.org/downloads/Imaging-1.1.7.tar.gz (from http://www.pythonware.com/products/pil/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/Imaging-1.1.6.tar.gz (from http://www.pythonware.com/products/pil/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/Imaging-1.1.5.tar.gz (from http://www.pythonware.com/products/pil/); wrong project name (not pil)
+  Analyzing links from page http://effbot.org/downloads/
+    Skipping link http://effbot.org/downloads/rss.xml (from http://effbot.org/downloads/); unknown archive format: .xml
+    Skipping link http://effbot.org/zone/copyright.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://www.amazon.co.uk/gp/registry/2QZDLLDVBENMC (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/downloads/#aggdraw (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/downloads/#pil (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/draw-agg.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.2a3-20060212.win32-py2.6.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.2a3-20060212.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.2a3-20060212.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.2a3-20060212.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.1-20051010.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.1-20051010.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/aggdraw-1.1-20051010.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/aggdraw-1.2a3-20060212 (from http://effbot.org/downloads/); unknown archive format: .2a3-20060212
+    Skipping link http://effbot.org/downloads/#celementtree (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/downloads/#elementtree (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/element-index.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/zone/celementtree.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.5-20051216.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.5-20051216.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.5-20051215.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.5-20051215.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.2-20050302.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.2-20050302.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.2-20050302.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0.1-20050130.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/cElementTree-1.0-20050126.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0.6-20090110-preview (from http://effbot.org/downloads/); unknown archive format: .6-20090110-preview
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0.6-20070831-preview (from http://effbot.org/downloads/); unknown archive format: .6-20070831-preview
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0.5-20051216 (from http://effbot.org/downloads/); unknown archive format: .5-20051216
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0.4-20051213 (from http://effbot.org/downloads/); unknown archive format: .4-20051213
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0.2-20050302 (from http://effbot.org/downloads/); unknown archive format: .2-20050302
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0.1-20050130 (from http://effbot.org/downloads/); unknown archive format: .1-20050130
+    Skipping link http://svn.effbot.org/public/tags/celementtree-1.0-20050126 (from http://effbot.org/downloads/); unknown archive format: .0-20050126
+    Skipping link http://effbot.org/downloads/#console (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/console-index.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.win32-py2.6.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/console-1.1a1-20011229.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#effbot (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/effbot-exe-index.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/zone/effnews-exe.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/downloads/effbot-1.0.19-20040517.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/effbot-1.0.19-20040517.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/effbot-1.0.15-20030711.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/blogping-1.0.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/media/downloads/comhem-1.2.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/media/downloads/effnews-1.0.17.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/media/downloads/effnews-1.0.20.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/media/downloads/effnews-1.0.21.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/media/downloads/imageview-0.0.3.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/media/downloads/pil114-1.1.4b1.effbot (from http://effbot.org/downloads/); unknown archive format: .effbot
+    Skipping link http://effbot.org/downloads/#effbot.org (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/effbot.org-0.1-20041009.win32.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/effbot.org-0.1-20041009.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/effbot.org-0.2-20050530 (from http://effbot.org/downloads/); unknown archive format: .2-20050530
+    Skipping link http://svn.effbot.org/public/tags/effbot.org-0.1-20041009 (from http://effbot.org/downloads/); unknown archive format: .1-20041009
+    Skipping link http://effbot.org/downloads/#effnews (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/effnews.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/effnews-4.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#elementsoap (from http://effbot.org/downloads/); not a file
+    Skipping link http://www.w3.org/TR/SOAP/ (from http://effbot.org/downloads/); not a file
+    Skipping link http://www.google.com/apis (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/element-soap.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/elementsoap-0.6-20071224.win32.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementsoap-0.6-20071224.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementsoap-0.5-20061119.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementsoap-0.3-20031123.win32.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementsoap-0.3-20031123.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/elementsoap-0.6-20071224 (from http://effbot.org/downloads/); unknown archive format: .6-20071224
+    Skipping link http://effbot.org/downloads/#elementtidy (from http://effbot.org/downloads/); not a file
+    Skipping link http://tidy.sourceforge.net/ (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/element-tidylib.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.win32-py2.6.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtidy-1.0-20050212.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2.7-20070827-preview.win32.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2.7-20070827-preview.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2.6-20050316.win32.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2.6-20050316.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2.6-20050316.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2-20040618.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.2-20040618.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.1-20030511.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/elementtree-1.0-20020728.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/elementtree-1.3a3-20070912 (from http://effbot.org/downloads/); unknown archive format: .3a3-20070912
+    Skipping link http://svn.effbot.org/public/tags/elementtree-1.2.7-20070827-preview (from http://effbot.org/downloads/); unknown archive format: .7-20070827-preview
+    Skipping link http://svn.effbot.org/public/tags/elementtree-1.2.6-20050316 (from http://effbot.org/downloads/); unknown archive format: .6-20050316
+    Skipping link http://svn.effbot.org/public/tags/elementtree-1.2.5-20050302 (from http://effbot.org/downloads/); unknown archive format: .5-20050302
+    Skipping link http://svn.effbot.org/public/tags/elementtree-1.2.4-20041228 (from http://effbot.org/downloads/); unknown archive format: .4-20041228
+    Skipping link http://svn.effbot.org/public/tags/elementtree-1.2-20040618 (from http://effbot.org/downloads/); unknown archive format: .2-20040618
+    Skipping link http://effbot.org/downloads/#exemaker (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/exemaker.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/exemaker-1.2-20041012.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#ftpparse (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/ftpparse-1.1-20021124.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#grabscreen (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/grabscreen-1.0-20010426.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#imaging (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/pil-index.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.7.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.6.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.5.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.4.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.3.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.2.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/Imaging-1.1.1.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.7b1-20090412 (from http://effbot.org/downloads/); unknown archive format: .7b1-20090412
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.7a2-20090328 (from http://effbot.org/downloads/); unknown archive format: .7a2-20090328
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.7a1-20090317 (from http://effbot.org/downloads/); unknown archive format: .7a1-20090317
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.7 (from http://effbot.org/downloads/); unknown archive format: .7
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.6 (from http://effbot.org/downloads/); unknown archive format: .6
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.5 (from http://effbot.org/downloads/); unknown archive format: .5
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.4 (from http://effbot.org/downloads/); unknown archive format: .4
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.3 (from http://effbot.org/downloads/); unknown archive format: .3
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.2 (from http://effbot.org/downloads/); unknown archive format: .2
+    Skipping link http://svn.effbot.org/public/tags/pil-1.1.1 (from http://effbot.org/downloads/); unknown archive format: .1
+    Found link http://effbot.org/media/downloads/PIL-1.1.7a2-py2.5-macosx10.5.mpkg.zip (from http://effbot.org/downloads/), version: 1.1.7a2-py2.5-macosx10.5.mpkg
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.7.win32-py2.6.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.7.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.7.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Found link http://effbot.org/media/downloads/PIL-1.1.7.tar.gz (from http://effbot.org/downloads/), version: 1.1.7
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.6.win32-py2.6.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.6.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.6.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.6.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.6.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.5.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.5.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.5.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.5.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.5.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.4.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.4.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/PIL-1.1.4.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/#pilfonts (from http://effbot.org/downloads/); not a file
+    Could not parse version from link: http://effbot.org/media/downloads/pilfonts.zip (from http://effbot.org/downloads/)
+    Skipping link http://effbot.org/media/downloads/pilfonts.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#pilwmf (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/pilwmf-1.0b2-20040224.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/pilwmf-1.0b2-20040224.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Found link http://effbot.org/media/downloads/pilwmf-1.0b2-20040224.zip (from http://effbot.org/downloads/), version: wmf-1.0b2-20040224
+    Skipping link http://effbot.org/downloads/#pythondoc (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/pythondoc-2.1b7-20070909.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/pythondoc-2.0-20031103.win32.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/pythondoc-2.0-20031103.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/pythondoc-2.0-20031103.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/pythondoc-2.1b4-20050618 (from http://effbot.org/downloads/); unknown archive format: .1b4-20050618
+    Skipping link http://svn.effbot.org/public/tags/pythondoc-2.1b3-20050325 (from http://effbot.org/downloads/); unknown archive format: .1b3-20050325
+    Skipping link http://svn.effbot.org/public/tags/pythondoc-2.1b2-20040905 (from http://effbot.org/downloads/); unknown archive format: .1b2-20040905
+    Skipping link http://svn.effbot.org/public/tags/pythondoc-2.1b1-20040901 (from http://effbot.org/downloads/); unknown archive format: .1b1-20040901
+    Skipping link http://svn.effbot.org/public/tags/pythondoc-2.0-20031103 (from http://effbot.org/downloads/); unknown archive format: .0-20031103
+    Skipping link http://effbot.org/downloads/#sgmlop (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/sgmlop-index.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/sgmlop-1.1.1-20040207.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/sgmlop-1.1.1-20040207.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/sgmlop-1.1.1-20040207.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/sgmlop-1.1.1-20040207.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/sgmlop-1.1-20030913.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#squeeze (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/squeeze.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/squeeze-1.6-19980504.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#sre (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/sre-2.2.1.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#subprocess (from http://effbot.org/downloads/); not a file
+    Skipping link http://www.lysator.liu.se/%7eastrand/popen5/ (from http://effbot.org/downloads/); not a file
+    Skipping link http://www.python.org/peps/pep-0324.html (from http://effbot.org/downloads/); unknown archive format: .html
+    Skipping link http://effbot.org/media/downloads/subprocess-0.1-20041012.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/subprocess-0.1-20041012.win32-py2.2.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/downloads/#tkicon (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/tkicon-0.9-19980218.win32-py2.1.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/tkicon-0.9-19980218.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#tkinter3000 (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/wck.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/zone/tkinter-index.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.1.1-20061204.win32-py2.6.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.1.1-20061204.win32-py2.5.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.1.1-20061204.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.1.1-20061204.win32-py2.3.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.1.1-20061204.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.1-20051211.win32-py2.4.exe (from http://effbot.org/downloads/); unknown archive format: .exe
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.0-20031212.tar.gz (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/media/downloads/tkinter3000-1.0-20031212.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://svn.effbot.org/public/tags/wck-tkinter3000-1.1b1-20051015 (from http://effbot.org/downloads/); unknown archive format: .1b1-20051015
+    Skipping link http://svn.effbot.org/public/tags/wck-tkinter3000-1.1a1-20040905 (from http://effbot.org/downloads/); unknown archive format: .1a1-20040905
+    Skipping link http://svn.effbot.org/public/tags/wck-tkinter3000-1.1-20051211 (from http://effbot.org/downloads/); unknown archive format: .1-20051211
+    Skipping link http://svn.effbot.org/public/tags/wck-tkinter3000-1.0-20031212 (from http://effbot.org/downloads/); unknown archive format: .0-20031212
+    Skipping link http://effbot.org/downloads/#wckgraph (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/zone/wckgraph.htm (from http://effbot.org/downloads/); unknown archive format: .htm
+    Skipping link http://effbot.org/media/downloads/wckgraph-0.5-20040421.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/#xmlrpclib (from http://effbot.org/downloads/); not a file
+    Skipping link http://effbot.org/media/downloads/xmlrpclib-1.0.1.zip (from http://effbot.org/downloads/); wrong project name (not pil)
+    Skipping link http://effbot.org/downloads/ (from http://effbot.org/downloads/); not a file
+  Ignoring link http://effbot.org/media/downloads/PIL-1.1.7a2-py2.5-macosx10.5.mpkg.zip (from http://effbot.org/downloads/), version 1.1.7a2-py2.5-macosx10.5.mpkg doesn't match ==1.1.6
+  Ignoring link http://effbot.org/media/downloads/PIL-1.1.7.tar.gz (from http://effbot.org/downloads/), version 1.1.7 doesn't match ==1.1.6
+  Ignoring link http://effbot.org/media/downloads/pilwmf-1.0b2-20040224.zip (from http://effbot.org/downloads/), version wmf-1.0b2-20040224 doesn't match ==1.1.6
+  Could not find a version that satisfies the requirement pil==1.1.6 (from -r requirements.txt (line 2)) (from versions: )
+No distributions matching the version for pil==1.1.6 (from -r requirements.txt (line 2))
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 823, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/index.py", line 147, in find_requirement
+    raise DistributionNotFound('No distributions matching the version for %s' % req)
+DistributionNotFound: No distributions matching the version for pil==1.1.6 (from -r requirements.txt (line 2))
+------------------------------------------------------------
+/Users/gsiegman/.virtualenvs/django-shoebox/bin/pip run on Wed Mar 24 19:44:34 2010
+Requirement already satisfied (use --upgrade to upgrade): pil in /Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/PIL (from -r requirements.txt (line 4))
+Requirement already satisfied (use --upgrade to upgrade): django-tagging==0.3 in /Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages (from -r requirements.txt (line 5))
+Obtaining uploadify from git+http://github.com/tstone/django-uploadify.git#egg=uploadify (from -r requirements.txt (line 1))
+  Cloning http://github.com/tstone/django-uploadify.git to /Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify
+  Found command git at /usr/local/git/bin/git
+  Running command /usr/local/git/bin/git clone -q http://github.com/tstone/django-uploadify.git /Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify
+  Running command /usr/local/git/bin/git checkout -q origin/master
+  Running setup.py egg_info for package uploadify
+    Traceback (most recent call last):
+      File "<string>", line 14, in <module>
+    IOError: [Errno 2] No such file or directory: '/Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify/setup.py'
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+
+  File "<string>", line 14, in <module>
+
+IOError: [Errno 2] No such file or directory: '/Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify/setup.py'
+
+----------------------------------------
+Command python setup.py egg_info failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 810, in install_files
+    req_to_install.run_egg_info()
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 205, in run_egg_info
+    command_desc='python setup.py egg_info')
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/__init__.py", line 207, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command python setup.py egg_info failed with error code 1
+------------------------------------------------------------
+/Users/gsiegman/.virtualenvs/django-shoebox/bin/pip run on Wed Mar 24 19:59:07 2010
+Requirement already satisfied (use --upgrade to upgrade): pil in /Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/PIL (from -r requirements.txt (line 4))
+Requirement already satisfied (use --upgrade to upgrade): django-tagging==0.3 in /Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages (from -r requirements.txt (line 5))
+Obtaining uploadify from git+http://github.com/gsiegman/django-uploadify.git#egg=uploadify (from -r requirements.txt (line 1))
+  Found command git at /usr/local/git/bin/git
+  Running command /usr/local/git/bin/git config remote.origin.url
+  http://github.com/tstone/django-uploadify.git
+  git clone in /Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify exists with URL http://github.com/tstone/django-uploadify.git
+  The plan is to install the git repository http://github.com/gsiegman/django-uploadify.git
+  Switching clone /Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify to http://github.com/gsiegman/django-uploadify.git
+  Running command /usr/local/git/bin/git config remote.origin.url http://github.com/gsiegman/django-uploadify.git
+  Running command /usr/local/git/bin/git checkout -q origin/master
+  Running setup.py egg_info for package uploadify
+    Traceback (most recent call last):
+      File "<string>", line 14, in <module>
+    IOError: [Errno 2] No such file or directory: '/Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify/setup.py'
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+
+  File "<string>", line 14, in <module>
+
+IOError: [Errno 2] No such file or directory: '/Users/gsiegman/.virtualenvs/django-shoebox/src/uploadify/setup.py'
+
+----------------------------------------
+Command python setup.py egg_info failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 810, in install_files
+    req_to_install.run_egg_info()
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 205, in run_egg_info
+    command_desc='python setup.py egg_info')
+  File "/Users/gsiegman/.virtualenvs/django-shoebox/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/__init__.py", line 207, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command python setup.py egg_info failed with error code 1

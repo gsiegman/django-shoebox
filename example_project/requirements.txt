@@ -1,0 +1,8 @@
+-e git+http://github.com/gsiegman/django-uploadify.git#egg=uploadify
+-e git+http://github.com/alex/django-ajax-validation.git#egg=ajax_validation
+
+django==1.1.1
+pil
+django-tagging==0.3
+django-photologue==2.2
+south==0.6.2
