@@ -18,12 +18,25 @@
 			width: 500px;
 		}
 	</style>
+	
+	<script type="text/javascript">
+		function search(search) {
+			$.ajax({
+		  		url: '{% url shoebox_image_search %}?q=' + search,
+		  		success: function(data) {
+		    		$('#photos').html(data);
+		  		}
+			});
+		}
+	</script>
 {% endblock %}
 
 {% block content %}
 <div id="search-container" class="center">
+	<form method="get" action="{% url shoebox_image_search %}" >
 	<label for="search-box">Search:</label>
-	<input id="search-box" type="text" />
+	<input id="search-box" name="q" type="text" onkeyup="search(this.value); return false;"/>
+	<input type="submit" value="search" />
 </div>
 
 <div id="photos">

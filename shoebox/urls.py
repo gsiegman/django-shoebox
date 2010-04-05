@@ -25,6 +25,10 @@ urlpatterns = patterns('',
          'template_name': 'shoebox/shoebox_item.html'}, 
          name='shoebox_shoebox_item'
     ),
+    url(r'^image_search/$',
+        'shoebox.views.image_search',
+        name='shoebox_image_search'
+    )
 )
 
 #ajax-validation urls

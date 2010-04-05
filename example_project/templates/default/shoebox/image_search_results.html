@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for photo in photos %}
+	<a href="{% url pl-photo photo.title_slug %}"><img src="{{ photo.get_thumbnail_url }}" /></a>
+	<p>{{ photo.title }}</p>
+{% endfor %}
+
+{% endblock %}

@@ -10,15 +10,29 @@ from shoebox.forms import ShoeboxPhotoForm
 
 import shutil
 
-def shoebox_index(request):
+def shoebox_index(request, **kwargs):
+    """
+    index page for shoebox
+    """
+    template_name = kwargs.get("template_name", "shoebox/shoebox_index.html")
+	
     latest_photos = Photo.objects.all()[:10]
     
-    return direct_to_template(request, template='shoebox/shoebox_index.html', extra_context={'latest_photos': latest_photos})
+    return render_to_response(template_name, {
+		"latest_photos": latest_photos
+	}, context_instance=RequestContext(request))
 
-def shoebox_image_gallery(request):
-    photos = Photo.objects.all().order_by('-date_added')[:20]
+def shoebox_image_gallery(request, **kwargs):
+    """
+    main image gallery
+    """
+    template_name = kwargs.get("template_name", "shoebox/shoebox_image_gallery.html")
     
-    return render_to_response('shoebox/shoebox_image_gallery.html', {'photos': photos})
+    photos = Photo.objects.all().order_by('-date_added')
+    
+    return render_to_response(template_name, {
+        'photos': photos
+    }, context_instance=RequestContext(request))
 
 def new_upload_holding(request):
     forms = []
@@ -49,7 +63,12 @@ def manage_new_upload(request):
     
     return HttpResponseRedirect('/shoebox/new_uploads/')
 
-def shoebox_item_search(request):
+def image_search(request, **kwargs):
+    """
+    image search
+    """
+    template_name = kwargs.get("template_name", "shoebox/image_search_results.html")
+    
     q = request.GET.get('q')
     limit = request.GET.get('limit', 20)
     
@@ -58,11 +77,12 @@ def shoebox_item_search(request):
     except ValueError:
         return HttpResponseBadRequest
     
-    results = Photo.objects.filter(title__icontains==q)[:limit]
+    photos = Photo.objects.filter(title__icontains=q)[:limit]
     
-    if request.is_ajax():
-        return HttpResponse(results, mimetype='text/plain')
-    else:
-        return render_to_response('shoebox/search_results.html',
-                                    {'results': results},
-                                    context_instance=RequestContext(request))
+    #if request.is_ajax():
+    #    return HttpResponse(results, 
+    #        mimetype='text/plain')
+    #else:
+    return render_to_response(template_name, {
+        'photos': photos
+    }, context_instance=RequestContext(request))
