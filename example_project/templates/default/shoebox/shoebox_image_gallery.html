@@ -24,7 +24,7 @@
 			$.ajax({
 		  		url: '{% url shoebox_image_search %}?q=' + search,
 		  		success: function(data) {
-		    		$('#photos').html(data);
+		    		$('#images').html(data);
 		  		}
 			});
 		}
@@ -39,10 +39,10 @@
 	<input type="submit" value="search" />
 </div>
 
-<div id="photos">
-{% for photo in photos %}
-	<a href="{% url pl-photo photo.title_slug %}"><img src="{{ photo.get_thumbnail_url }}" /></a>
-	<p>{{ photo.title }}</p>
+<div id="images">
+{% for image in images %}
+	<a href="{% url shoebox_manage_item 'image' image.id %}"><img src="{{ image.get_thumbnail_url }}" /></a>
+	<p>{{ image.title }}</p>
 {% endfor %}
 </div>
 {% endblock %}

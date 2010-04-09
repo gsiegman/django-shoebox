@@ -7,7 +7,7 @@ from photologue.models import Photo
 
 class Shoebox(models.Model):
     owner = models.ForeignKey(User, unique=True)
-    
+
 class ShoeboxUpload(models.Model):
     file = models.FileField(upload_to='holding')
     new_upload = models.BooleanField()

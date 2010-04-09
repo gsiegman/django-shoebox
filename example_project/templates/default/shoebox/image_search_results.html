@@ -2,9 +2,9 @@
 
 {% block content %}
 
-{% for photo in photos %}
-	<a href="{% url pl-photo photo.title_slug %}"><img src="{{ photo.get_thumbnail_url }}" /></a>
-	<p>{{ photo.title }}</p>
+{% for image in images %}
+	<a href="{% url shoebox_manage_item 'image' image.id %}"><img src="{{ image.get_thumbnail_url }}" /></a>
+	<p>{{ image.title }}</p>
 {% endfor %}
 
 {% endblock %}

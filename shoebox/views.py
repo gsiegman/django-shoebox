@@ -1,10 +1,11 @@
 from django.http import HttpResponse, HttpResponseBadRequest, HttpResponseRedirect
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, get_object_or_404
 from django.views.generic.simple import direct_to_template
 from django.template import RequestContext
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.conf import settings
-from photologue.models import Photo
+from django.contrib.contenttypes.models import ContentType
+from photologue.models import Photo, PhotoSize
 from shoebox.models import ShoeboxUpload
 from shoebox.forms import ShoeboxPhotoForm
 
@@ -16,10 +17,10 @@ def shoebox_index(request, **kwargs):
     """
     template_name = kwargs.get("template_name", "shoebox/shoebox_index.html")
 	
-    latest_photos = Photo.objects.all()[:10]
+    latest_images = Photo.objects.all()[:20]
     
     return render_to_response(template_name, {
-		"latest_photos": latest_photos
+		"latest_images": latest_images
 	}, context_instance=RequestContext(request))
 
 def shoebox_image_gallery(request, **kwargs):
@@ -28,10 +29,10 @@ def shoebox_image_gallery(request, **kwargs):
     """
     template_name = kwargs.get("template_name", "shoebox/shoebox_image_gallery.html")
     
-    photos = Photo.objects.all().order_by('-date_added')
+    images = Photo.objects.all().order_by('-date_added')
     
     return render_to_response(template_name, {
-        'photos': photos
+        'images': images
     }, context_instance=RequestContext(request))
 
 def new_upload_holding(request):
@@ -63,6 +64,41 @@ def manage_new_upload(request):
     
     return HttpResponseRedirect('/shoebox/new_uploads/')
 
+class ItemManagementView(object):
+    """
+    a class-based view to dispatch to the appropriate managed media type
+    
+    insired by http://www.djangosnippets.org/snippets/1582/
+    """
+    
+    @classmethod
+    def dispatch(cls, request, *args, **kwargs):
+        return cls().__dispatch(request, *args, **kwargs)
+    
+    def __dispatch(self, request, *args, **kwargs):
+        try:
+            return getattr(self, 'manage_%s' % kwargs['object_type'])(request, *args, **kwargs)
+        except AttributeError:
+            return self.__managed_type_not_allowed(*args, **kwargs)
+    
+    def __managed_type_not_allowed(self, *args, **kwargs):
+        response = HttpResponse('This type is not managed by Shoebox: %s' % kwargs['object_type'])
+        response.status_code = 400
+        return response
+    
+    def manage_image(self, request, *args, **kwargs):
+        image = get_object_or_404(Photo, pk=kwargs['object_id'])
+        image_sizes = [{
+            'url': getattr(image, 'get_%s_url' % size.name)(), 
+            'name': size.name
+        } for size in PhotoSize.objects.all()]
+        
+        return render_to_response('shoebox/shoebox_manage_item.html', {
+            'type': kwargs['object_type'],
+            'object': image,
+            'photo_sizes': image_sizes,
+        }, context_instance=RequestContext(request))
+
 def image_search(request, **kwargs):
     """
     image search
@@ -77,12 +113,8 @@ def image_search(request, **kwargs):
     except ValueError:
         return HttpResponseBadRequest
     
-    photos = Photo.objects.filter(title__icontains=q)[:limit]
+    images = Photo.objects.filter(title__icontains=q)[:limit]
     
-    #if request.is_ajax():
-    #    return HttpResponse(results, 
-    #        mimetype='text/plain')
-    #else:
     return render_to_response(template_name, {
-        'photos': photos
+        'images': images
     }, context_instance=RequestContext(request))

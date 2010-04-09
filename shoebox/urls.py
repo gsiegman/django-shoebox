@@ -1,6 +1,7 @@
 from django.conf.urls.defaults import *
 from photologue.models import Photo
 from shoebox.forms import ShoeboxPhotoForm
+from shoebox.views import ItemManagementView
 
 urlpatterns = patterns('',
     url(r'^$', 
@@ -19,11 +20,9 @@ urlpatterns = patterns('',
         'shoebox.views.manage_new_upload',
         name="shoebox_manage_new_upload"
     ),
-    url(r'^item/(?P<object_id>\d+)/$', 
-        'django.views.generic.list_detail.object_detail', 
-        {'queryset': Photo.objects.all(),
-         'template_name': 'shoebox/shoebox_item.html'}, 
-         name='shoebox_shoebox_item'
+    url(r'^item/(?P<object_type>\w+)/(?P<object_id>\d+)/$', 
+        ItemManagementView.dispatch,
+         name='shoebox_manage_item'
     ),
     url(r'^image_search/$',
         'shoebox.views.image_search',

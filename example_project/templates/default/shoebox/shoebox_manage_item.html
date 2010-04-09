@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% ifequal type "image" %}
+		<p>This is a image with an id of {{ object.id }}</p>
+		<img src="{{ object.get_thumbnail_url }}" />
+		
+		<ul id="image_sizes">
+		{% for image_size in image_sizes %}
+			<li class="image_size">
+				<img src="{{ image_size.url }}" />
+				{{ image_size.name }}
+			</li>
+		{% endfor %}
+		</ul>
+	{% endifequal %}
+	
+	{% ifequal type "audio" %}
+		<p>This is audio</p>
+	{% endifequal %}
+{% endblock %}
