@@ -1,24 +1,10 @@
-{% extends "base.html" %}
+{% extends "shoebox/base.html" %}
 
 {% block title %}{{ block.super }}Shoebox{% endblock %}
 
 {% block head_extra %}
+
 	{{ block.super }}
-	<style type="text/css">
-		div {
-			padding: 10px;
-		}
-		
-		.center {
-			margin: auto;
-			width: 70%;
-		}
-		
-		#search-box {
-			width: 500px;
-		}
-	</style>
-	
 	<script type="text/javascript">
 		function search(search) {
 			$.ajax({
@@ -39,10 +25,14 @@
 	<input type="submit" value="search" />
 </div>
 
-<div id="images">
-{% for image in images %}
-	<a href="{% url shoebox_manage_item 'image' image.id %}"><img src="{{ image.get_thumbnail_url }}" /></a>
-	<p>{{ image.title }}</p>
-{% endfor %}
+<div class="main-item latest-images">
+    <h2>Latest Images</h2>
+    <div class="inner">
+    {% for image in images %}
+        <a href="{% url shoebox_manage_item 'image' image.id %}">
+            <img src="{{ image.get_square_thumbnail_url }}" alt="{{ image.title }}" title="{{ image.title }}" />
+        </a>
+    {% endfor %}
+    </div>
 </div>
 {% endblock %}

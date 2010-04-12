@@ -1,16 +1,75 @@
-.header { display: block; background: url("../img/header-background.gif") #CCCCCC; width: 100%; }
+.page-wrapper { clear: both; width: 100%; }
 
-    .header a.logo { display: inline-block; padding: 5px 10px; }
-    
-.nav { background: url("../img/nav-background.gif") #3973A0; width: 100%; margin: 0; }
+.header {
+	display: block;
+	background: url("../img/header-background.gif") #CCCCCC;
+	width: 100%;
+	clear: both; }
+ 
+	.header a.logo {
+		display: inline-block;
+		padding: 5px 10px; }
+ 
+.nav-filler {
+	background: url("../img/nav-background.gif") #3973A0;
+	width: 100%;
+	height: 15px; 
+	clear: both;
+	margin: 0; }
+ 
+.body {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #efefef; }
+ 
+.footer {
+	clear: both;
+	width: 960px;
+	margin: 10px auto;
+	text-align: center;
+	color: #aaa; }
+ 
+h1.title {
+	font-weight: bold;
+	font-size: 2.5em; }
 
-	.nav li { list-style-type:none; float: left; }
+/* Styling for page items */ 
+ 
+.main-item, .secondary-item {
+	width: 100;
+	-moz-border-radius: 0 0 5px 5px;
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+	margin-bottom: 10px; }
 	
-		.nav li a { padding: 3px 5px; display: block; }
+.main-item > h2 > a, .secondary-item > h2 > a { color: #fff; text-decoration: none; }
 
-.body { clear: both; width: 960px; margin: 0 auto; padding: 10px; }
+	.main-item > h2 > a:hover, .secondary-item > h2 > a:hover { text-decoration: underline; }
+ 
+.main-item > .inner, .secondary-item > .inner { padding: 0 10px 10px 10px; }
+ 
+.main-item > ul, secondary-item > ul {
+	margin: 0;
+	list-style-type: none; }
+ 
+.main-item > h2, .secondary-item > h2 {
+	font-weight: bold;
+	font-size: 1em;
+	padding: 4px 8px;
+	-moz-border-radius: 5px 5px 0 0;
+	margin-bottom: 10px; }
 
-.footer { clear: both; width: 960px; margin: 0 auto; text-align: center; color: #aaa; }
+/* Item colors can be dragged out to individual themes if needed. */ 
+.main-item > h2 {
+	background-color: #37719E;
+	color: #fff; }
+ 
+.secondary-item > h2 {
+	background-color: #333;
+	color: #fff; }
+
 
 /* --Uploadify -- */
 .uploadifyQueueItem {

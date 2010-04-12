@@ -1,21 +1,26 @@
-{% extends "base.html" %}
+{% extends "shoebox/base.html" %}
 
 {% block content %}
-	{% ifequal type "image" %}
-		<p>This is a image with an id of {{ object.id }}</p>
-		<img src="{{ object.get_thumbnail_url }}" />
+	<div class="main-item">
+		<h2>Item Detail</h2>
+		<div class="inner">
+		{% ifequal type "image" %}
+			<p>This is an image with an id of {{ object.id }}</p>
+			<img src="{{ object.get_medium_thumbnail_url }}" />
+			
+			<ul id="image_sizes">
+			{% for image_size in image_sizes %}
+				<li class="image_size">
+					<img src="{{ image_size.url }}" />
+					{{ image_size.name }}
+				</li>
+			{% endfor %}
+			</ul>
+		{% endifequal %}
 		
-		<ul id="image_sizes">
-		{% for image_size in image_sizes %}
-			<li class="image_size">
-				<img src="{{ image_size.url }}" />
-				{{ image_size.name }}
-			</li>
-		{% endfor %}
-		</ul>
-	{% endifequal %}
-	
-	{% ifequal type "audio" %}
-		<p>This is audio</p>
-	{% endifequal %}
+		{% ifequal type "audio" %}
+			<p>This is audio</p>
+		{% endifequal %}
+		</div>
+	</div>
 {% endblock %}

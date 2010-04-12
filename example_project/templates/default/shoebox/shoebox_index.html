@@ -1,27 +1,31 @@
-{% extends "base.html" %}
+{% extends "shoebox/base.html" %}
 
 {% load uploadify_tags %}
 
-{% block head_extra %}
-	{{ block.super }}
-	<link rel="stylesheet" href="{{ MEDIA_URL }}css/style.css" type="text/css" media="screen" />
-{% endblock %}
-
-{% block title %}Shoebox Index{% endblock %}
+{% block title %}Home - Shoebox{% endblock %}
 
 {% block content %}
-	<h1>Hello Shoebox!</h1>
-	
-	{% multi_file_upload '/shoebox/new_uploads/' %}
-	
-	<h3>Latest images:</h3>
-	
-	<ul>
-	{% for image in latest_images %}
-		<li>
-			<a href="{% url shoebox_manage_item 'image' image.id %}"><img src="{{ image.get_thumbnail_url }}" /></a>
-			<caption>{{ image.title }}</caption>
-		</li>
-	{% endfor %}
-	</ul>
+
+	<h1 class="title">Hello, I'm Shoebox!</h1>
+	 <div class="main-item">
+        <h2>Upload</h2>
+        <div class="inner">
+            
+            {% multi_file_upload '/shoebox/new_uploads/' %}
+            
+        </div>
+    </div>
+    <div class="main-item">
+        <h2><a href="/shoebox/images">Latest images</a></h2>
+        <div class="inner latest-images">
+            
+        {% for image in latest_images|slice:":10" %}
+            <a href="{% url shoebox_manage_item 'image' image.id %}" alt="{{ image.title }}" title="{{ image.title }}">
+                <img src="{{ image.get_square_thumbnail_url }}" />
+            </a>
+        {% endfor %}
+        
+        </div>
+    </div>
+    
 {% endblock %}
