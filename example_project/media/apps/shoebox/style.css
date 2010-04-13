@@ -1,1 +1,11 @@
-.latest-images img { padding: 3px; }
+.image-gallery img { padding: 3px; }
+
+body.shoebox-index div.search { }
+
+body.shoebox-index div.upload { }
+
+body.shoebox-index div.latest-images { clear: both; }
+
+body.shoebox-index .main-col { width: 540px; float: left; margin-right: 20px; }
+
+body.shoebox-index .side-col { width: 400px; float: left; }

@@ -1,10 +1,33 @@
 {% extends "shoebox/base.html" %}
 
 {% block content %}
-
-{% for image in images %}
-	<a href="{% url shoebox_manage_item 'image' image.id %}"><img src="{{ image.get_thumbnail_url }}" /></a>
-	<p>{{ image.title }}</p>
-{% endfor %}
+<div class="inner-navigation">
+    <a href="/shoebox">&laquo; Shoebox Home</a>
+</div>
+<div class="main-item search">
+    <h2>Search Images</h2>
+    <div class="inner">
+        <div id="gallery-search" class="center">
+            <form method="get" action="{% url shoebox_image_search %}" >
+            <label for="search-box">Search:</label>
+            <input id="search-box" name="q" type="text"/>
+            <input type="submit" value="search" />
+        </div>
+    </div>
+</div>
+<div class="main-item image-gallery">
+    <h2>Search Results</h2>
+    <div class="inner">
+    {% if images %} 
+    {% for image in images %}
+        <a href="{% url shoebox_manage_item 'image' image.id %}" alt="{{ image.title }}" title="{{ image.title }}"><img src="{{ image.get_square_thumbnail_url }}" /></a>
+    {% endfor %}
+    {% else %}
+    <div class="notice">
+        No results.
+    </div>
+    {% endif %}
+    </div>
+</div>
 
 {% endblock %}

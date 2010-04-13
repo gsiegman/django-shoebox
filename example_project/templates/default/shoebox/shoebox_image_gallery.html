@@ -5,27 +5,25 @@
 {% block head_extra %}
 
 	{{ block.super }}
-	<script type="text/javascript">
-		function search(search) {
-			$.ajax({
-		  		url: '{% url shoebox_image_search %}?q=' + search,
-		  		success: function(data) {
-		    		$('#images').html(data);
-		  		}
-			});
-		}
-	</script>
+
 {% endblock %}
 
 {% block content %}
-<div id="search-container" class="center">
-	<form method="get" action="{% url shoebox_image_search %}" >
-	<label for="search-box">Search:</label>
-	<input id="search-box" name="q" type="text" onkeyup="search(this.value); return false;"/>
-	<input type="submit" value="search" />
+<div class="inner-navigation">
+    <a href="/shoebox">&laquo; Shoebox Home</a>
 </div>
-
-<div class="main-item latest-images">
+<div class="main-item search">
+    <h2>Search Images</h2>
+    <div class="inner">
+        <div id="gallery-search" class="center">
+            <form method="get" action="{% url shoebox_image_search %}" >
+            <label for="search-box">Search:</label>
+            <input id="search-box" name="q" type="text"/>
+            <input type="submit" value="search" />
+        </div>
+    </div>
+</div>
+<div class="main-item image-gallery">
     <h2>Latest Images</h2>
     <div class="inner">
     {% for image in images %}

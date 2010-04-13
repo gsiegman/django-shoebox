@@ -4,22 +4,37 @@
 
 {% block title %}Home - Shoebox{% endblock %}
 
-{% block content %}
+{% block bodyclass %}shoebox-index{% endblock %}
 
-	<h1 class="title">Hello, I'm Shoebox!</h1>
-	 <div class="main-item">
-        <h2>Upload</h2>
+{% block content %}
+<h1 class="title">Hello, I'm Shoebox!</h1>
+<div class="main-col">
+    <div class="main-item search">
+        <h2>Search Images</h2>
         <div class="inner">
-            
-            {% multi_file_upload '/shoebox/new_uploads/' %}
-            
+            <div id="gallery-search" class="center">
+                <form method="get" action="{% url shoebox_image_search %}" >
+                <label for="search-box">Search:</label>
+                <input id="search-box" name="q" type="text"/>
+                <input type="submit" value="search" />
+            </div>
         </div>
     </div>
-    <div class="main-item">
+    <div class="main-item upload">
+       <h2>Upload</h2>
+       <div class="inner">
+           
+           {% multi_file_upload '/shoebox/new_uploads/' %}
+           
+       </div>
+    </div>
+</div>
+<div class="side-col">
+     <div class="main-item latest-images">
         <h2><a href="/shoebox/images">Latest images</a></h2>
-        <div class="inner latest-images">
+        <div class="inner image-gallery">
             
-        {% for image in latest_images|slice:":10" %}
+        {% for image in latest_images|slice:":16" %}
             <a href="{% url shoebox_manage_item 'image' image.id %}" alt="{{ image.title }}" title="{{ image.title }}">
                 <img src="{{ image.get_square_thumbnail_url }}" />
             </a>
@@ -27,5 +42,5 @@
         
         </div>
     </div>
-    
+</div>
 {% endblock %}

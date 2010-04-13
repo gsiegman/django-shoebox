@@ -1,6 +1,20 @@
 {% block head_extra %}
 	{{ block.super }}
-	
+    <style type="text/css">
+    
+    .horizontal-form { margin: 0 0 15px 0; }
+    
+        .horizontal-form dl { margin: 0; }
+        
+            .horizontal-form dl dt { }
+        
+                .horizontal-form dl dt label { font-weight: bold; color: #333;  font-size: 11px; }
+        
+            .horizontal-form dl dd { margin-left: 0; }
+            
+                .horizontal-form dl dd input { margin: 0 0 .5em 0; }
+    
+    </style>
 	<script type="text/javascript" src="/media/js/core.js"></script>
 	<script type="text/javascript" src="/media/js/urlify.js"></script>
 	
@@ -16,8 +30,9 @@
 
 {% block content %}
 	{% for form in forms %}
+    <div class="horizontal-form">
 	<form enctype="multipart/form-data" method="post" action="{% url shoebox_manage_new_upload %}">
-        <dl>
+        <dl class="clearfix">
             
             {{ form.file.errors }}
             
@@ -45,6 +60,7 @@
         </dl>
     	<input type="submit" value="Save" />
 	</form>
+    </div>
 	{% endfor %}
 	
 	<a href="{% url shoebox_index %}">Upload more files</a>
