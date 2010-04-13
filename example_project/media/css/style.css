@@ -21,7 +21,7 @@
 	clear: both;
 	width: 960px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 20px;
 	background-color: #efefef; }
  
 .footer {
@@ -35,6 +35,12 @@ h1.title {
 	font-weight: bold;
 	font-size: 2.5em; }
 
+/* Inner Navigation */
+
+.inner-navigation { margin: 0 0 20px 0; }
+
+	.inner-navigation a { font-weight: bold; }
+
 /* Styling for page items */ 
  
 .main-item, .secondary-item {
@@ -42,7 +48,7 @@ h1.title {
 	-moz-border-radius: 0 0 5px 5px;
 	border-bottom: 1px solid #eee;
 	background-color: #fff;
-	margin-bottom: 10px; }
+	margin-bottom: 20px; }
 	
 .main-item > h2 > a, .secondary-item > h2 > a { color: #fff; text-decoration: none; }
 
@@ -70,6 +76,15 @@ h1.title {
 	background-color: #333;
 	color: #fff; }
 
+/* Link styles */
+
+a:link { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+a:visited { text-decoration: none; }
 
 /* --Uploadify -- */
 .uploadifyQueueItem {
