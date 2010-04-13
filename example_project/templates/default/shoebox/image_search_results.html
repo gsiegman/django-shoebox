@@ -20,7 +20,7 @@
     <div class="inner">
     {% if images %} 
     {% for image in images %}
-        <a href="{% url shoebox_manage_item 'image' image.id %}" alt="{{ image.title }}" title="{{ image.title }}"><img src="{{ image.get_square_thumbnail_url }}" /></a>
+        <a href="{% url shoebox_manage_item 'image' image.id %}" alt="{{ image.title }}" title="{{ image.title }}"><img src="{{ image.get_shoebox_square_url }}" /></a>
     {% endfor %}
     {% else %}
     <div class="notice">

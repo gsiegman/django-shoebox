@@ -28,7 +28,7 @@
     <div class="inner">
     {% for image in images %}
         <a href="{% url shoebox_manage_item 'image' image.id %}">
-            <img src="{{ image.get_square_thumbnail_url }}" alt="{{ image.title }}" title="{{ image.title }}" />
+            <img src="{{ image.get_shoebox_square_url }}" alt="{{ image.title }}" title="{{ image.title }}" />
         </a>
     {% endfor %}
     </div>

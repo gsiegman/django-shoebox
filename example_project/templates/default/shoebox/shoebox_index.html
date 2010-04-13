@@ -36,7 +36,7 @@
             
         {% for image in latest_images|slice:":16" %}
             <a href="{% url shoebox_manage_item 'image' image.id %}" alt="{{ image.title }}" title="{{ image.title }}">
-                <img src="{{ image.get_square_thumbnail_url }}" />
+                <img src="{{ image.get_shoebox_square_url }}" />
             </a>
         {% endfor %}
         

@@ -1,29 +1,56 @@
 {% extends "shoebox/base.html" %}
 
+{% block bodyclass %}item-detail{% endblock %}
+
 {% block content %}
 <div class="inner-navigation">
     <a href="/shoebox">&laquo; Shoebox Home</a>
 </div>
-<h1 class="title">{{ object.title }}</h1>
-<div class="main-item">
-	<h2>Item Detail</h2>
-	<div class="inner">
+<h1 class="title">{{ object.title }}</h1> 
+
 	{% ifequal type "image" %}
-		<img src="{{ object.get_medium_thumbnail_url }}" />
-		
-		<ul id="image_sizes">
-		{% for image_size in image_sizes %}
-			<li class="image_size">
-				<img src="{{ image_size.url }}" />
-				{{ image_size.name }}
-			</li>
-		{% endfor %}
-		</ul>
+	<div class="main-item image-preview">
+		<h2>Image Detail</h2>
+		<div class="inner">
+			<img src="{{ object.get_shoebox_medium_url }}" />
+		</div>
+	</div>
+	<div class="main-item image-sizes">
+		<h2>Photo Sizes</h2>
+		<div class="inner">
+			<ul>
+				
+				{% for image_size in image_sizes %}
+				<li>
+					<a href="{{ image_size.url }}">
+						{{ image_size.name }}
+					</a>
+				</li>
+				{% endfor %}
+				
+				<li>
+					<a href="#">
+						Original
+						<span class="dimensions">
+							{{ object.image.width }} x {{ object.image.height }}
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	{# PHOTO EMBEDDABLE INFORMAATION #}
+	
 	{% endifequal %}
 	
 	{% ifequal type "audio" %}
-		<p>This is audio</p>
-	{% endifequal %}
+	<div class="main-item">
+		<h2>Audio Detail</h2>
+		<div class="inner">
+			<p>This is audio</p>
+		</div>
 	</div>
-</div>
+	{% endifequal %}
+	
 {% endblock %}
